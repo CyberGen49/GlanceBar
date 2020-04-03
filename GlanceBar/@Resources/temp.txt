@@ -1,0 +1,153 @@
+ 
+[Section13B]
+Meter=Shape
+Container=SettingsContainer
+Shape=Rectangle -15,([CategoryTitle2:Y]+[CategoryTitle2:H]+5+(35*2)),260,35,18,18 | Fill Color 0,0,0,#Section13BOpa# | StrokeWidth 0
+MouseActionCursor=0
+MouseOverAction=[!SetVariable #CURRENTSECTION#Opa "30"][!Update]
+MouseLeaveAction=[!SetVariable #CURRENTSECTION#Opa "0"][!Update]
+LeftMouseUpAction=[]
+DynamicVariables=1
+
+[Section13BIcon]
+Meter=String
+Container=SettingsContainer
+Text=
+X=35
+Y=([CategoryTitle2:Y]+[CategoryTitle2:H]+24+(35*2))
+FontFace=Segoe MDL2 Assets
+FontSize=14
+FontColor=000000
+StringAlign=LeftCenter
+AntiAlias=1
+ClipString=2
+DynamicVariables=1
+
+[Section13BText]
+Meter=String
+Container=SettingsContainer
+Text=Volume
+X=15R
+Y=0r
+FontFace=Product Sans
+FontSize=10
+FontColor=000000
+StringAlign=LeftCenter
+AntiAlias=1
+ClipString=2
+DynamicVariables=1
+
+[Section14B]
+Meter=Shape
+Container=SettingsContainer
+Shape=Rectangle -15,([CategoryTitle2:Y]+[CategoryTitle2:H]+5+(35*3)),260,35,18,18 | Fill Color 0,0,0,#Section14BOpa# | StrokeWidth 0
+MouseActionCursor=0
+MouseOverAction=[!SetVariable #CURRENTSECTION#Opa "30"][!Update]
+MouseLeaveAction=[!SetVariable #CURRENTSECTION#Opa "0"][!Update]
+LeftMouseUpAction=[]
+DynamicVariables=1
+
+[Section14BIcon]
+Meter=String
+Container=SettingsContainer
+Text=
+X=35
+Y=([CategoryTitle2:Y]+[CategoryTitle2:H]+24+(35*3))
+FontFace=Segoe MDL2 Assets
+FontSize=14
+FontColor=000000
+StringAlign=LeftCenter
+AntiAlias=1
+ClipString=2
+DynamicVariables=1
+
+[Section14BText]
+Meter=String
+Container=SettingsContainer
+Text=Volume
+X=15R
+Y=0r
+FontFace=Product Sans
+FontSize=10
+FontColor=000000
+StringAlign=LeftCenter
+AntiAlias=1
+ClipString=2
+DynamicVariables=1
+
+[Section15B]
+Meter=Shape
+Container=SettingsContainer
+Shape=Rectangle -15,([CategoryTitle2:Y]+[CategoryTitle2:H]+5+(35*4)),260,35,18,18 | Fill Color 0,0,0,#Section15BOpa# | StrokeWidth 0
+MouseActionCursor=0
+MouseOverAction=[!SetVariable #CURRENTSECTION#Opa "30"][!Update]
+MouseLeaveAction=[!SetVariable #CURRENTSECTION#Opa "0"][!Update]
+LeftMouseUpAction=[]
+DynamicVariables=1
+
+[Section15BIcon]
+Meter=String
+Container=SettingsContainer
+Text=
+X=35
+Y=([CategoryTitle2:Y]+[CategoryTitle2:H]+24+(35*4))
+FontFace=Segoe MDL2 Assets
+FontSize=14
+FontColor=000000
+StringAlign=LeftCenter
+AntiAlias=1
+ClipString=2
+DynamicVariables=1
+
+[Section15BText]
+Meter=String
+Container=SettingsContainer
+Text=Volume
+X=15R
+Y=0r
+FontFace=Product Sans
+FontSize=10
+FontColor=000000
+StringAlign=LeftCenter
+AntiAlias=1
+ClipString=2
+DynamicVariables=1
+
+[Section16B]
+Meter=Shape
+Container=SettingsContainer
+Shape=Rectangle -15,([CategoryTitle2:Y]+[CategoryTitle2:H]+5+(35*5)),260,35,18,18 | Fill Color 0,0,0,#Section16BOpa# | StrokeWidth 0
+MouseActionCursor=0
+MouseOverAction=[!SetVariable #CURRENTSECTION#Opa "30"][!Update]
+MouseLeaveAction=[!SetVariable #CURRENTSECTION#Opa "0"][!Update]
+LeftMouseUpAction=[]
+DynamicVariables=1
+
+[Section16BIcon]
+Meter=String
+Container=SettingsContainer
+Text=
+X=35
+Y=([CategoryTitle2:Y]+[CategoryTitle2:H]+24+(35*5))
+FontFace=Segoe MDL2 Assets
+FontSize=14
+FontColor=000000
+StringAlign=LeftCenter
+AntiAlias=1
+ClipString=2
+DynamicVariables=1
+
+[Section16BText]
+Meter=String
+Container=SettingsContainer
+Text=Volume
+X=15R
+Y=0r
+FontFace=Product Sans
+FontSize=10
+FontColor=000000
+StringAlign=LeftCenter
+AntiAlias=1
+ClipString=2
+DynamicVariables=1
+
